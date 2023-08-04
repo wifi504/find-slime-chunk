@@ -115,8 +115,8 @@ public class Main {
             System.out.print(i + 1 + "\t");
             System.out.print(findCircle[sort[i][0]][sort[i][1]] + "\t\t");
 
-            System.out.print("(" + (sort[i][1] + z1) + ", ");
-            System.out.print((sort[i][0] + x1) + ")\n");
+            System.out.print("(" + (sort[i][1] + x1) + ", ");
+            System.out.print((sort[i][0] + z1) + ")\n");
 
         }
 
