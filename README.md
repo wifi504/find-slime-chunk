@@ -72,5 +72,5 @@ GNU General Public License v3.0
 
 Imccark · 史莱姆区块判定机制
 
-Alan · 思路贡献
+jiaranmiao555(Alan) · 思路贡献
 
