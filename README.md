@@ -16,7 +16,7 @@
 
 ### 使用
 
-1. 下载 [Release](https://github.com/wifi504/find-slime-chunk/releases/download/v1.0/find_slime_chunk_jar.zip) ，解压并双击`run-in-windows.bat` 运行程序
+1. 下载 [Release](https://github.com/wifi504/find-slime-chunk/releases/latest) ，解压并双击`run-in-windows.bat` 运行程序
 
    ![2.png](README_img/2.png)
 
