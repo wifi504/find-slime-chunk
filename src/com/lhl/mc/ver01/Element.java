@@ -1,3 +1,5 @@
+package com.lhl.mc.ver01;
+
 /**
  * @author WIFI连接超时
  * @version 1.0

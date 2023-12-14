@@ -1,3 +1,5 @@
+package com.lhl.mc.ver01;
+
 import java.util.Random;
 
 /**

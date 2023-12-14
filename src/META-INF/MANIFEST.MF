@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: Main
+com.lhl.mc.ver01.Main-Class: com.lhl.mc.ver01.Main
 

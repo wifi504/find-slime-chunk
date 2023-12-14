@@ -1,3 +1,5 @@
+package com.lhl.mc.ver01;
+
 import java.util.PriorityQueue;
 
 /**
@@ -22,7 +24,7 @@ public class Tools {
         // 创建一个缓存前一百个区块数据的数组
         int[][] sorted = new int[100][2];
 
-        // 用优先队列来存储这些 Element 对象，并在队列大小超过100时移除队列中的最小元素
+        // 用优先队列来存储这些 com.lhl.mc.ver01.Element 对象，并在队列大小超过100时移除队列中的最小元素
         PriorityQueue<Element> pq = new PriorityQueue<>();
         for (int i = 0; i < arr.length; ++i) {
             for (int j = 0; j < arr[i].length; ++j) {
