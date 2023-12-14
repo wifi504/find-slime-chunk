@@ -60,7 +60,7 @@ public class Main {
         }
 
         // 创建直径为17的圆形蒙板
-        int[][] mark = {
+        int[][] mask = {
                 {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0},
                 {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0},
@@ -81,17 +81,17 @@ public class Main {
         };
 
         // 创建棋盘遍历数组，其值为蒙板左上角在该点时史莱姆区块数量
-        int[][] findCircle = new int[z2 - z1 + 2 - mark.length][x2 - x1 + 2 - mark[0].length];
+        int[][] findCircle = new int[z2 - z1 + 2 - mask.length][x2 - x1 + 2 - mask[0].length];
 
         // 遍历棋盘
         for (int z = 0; z < findCircle.length; ++z) {
             for (int x = 0; x < findCircle[z].length; ++x) {
                 // 遍历蒙板
                 findCircle[z][x] = 0;
-                for (int z0 = 0; z0 < mark.length; ++z0) {
-                    for (int x0 = 0; x0 < mark[0].length; ++x0) {
+                for (int z0 = 0; z0 < mask.length; ++z0) {
+                    for (int x0 = 0; x0 < mask[0].length; ++x0) {
                         // 判断史莱姆区块可用
-                        if (mark[z0][x0] == 1 && slime[z + z0][x + x0] == 1) {
+                        if (mask[z0][x0] == 1 && slime[z + z0][x + x0] == 1) {
                             // 计数
                             ++findCircle[z][x];
                         }
